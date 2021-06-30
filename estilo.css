@@ -107,7 +107,9 @@ article {
   padding: 5px 20px;
 }
 
-
+h3 {
+  padding-left: 20px;
+}
 
 /* EXERCÍCIO 5: o rodapé */
 #rodape-pagina {
