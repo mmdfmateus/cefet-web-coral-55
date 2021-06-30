@@ -111,6 +111,12 @@ article {
 
 /* EXERCÍCIO 5: o rodapé */
 #rodape-pagina {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding-right: 14px;
+  padding-top: 23px;
 }
 
 /* EXERCÍCIO 6: lateral */
