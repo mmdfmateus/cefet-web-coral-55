@@ -10,6 +10,7 @@ h1 {
 body {
   background-color: #fff;
   font-family: 'Verdana';
+  margin: 0 auto;
 }
 
 strong {
@@ -43,27 +44,35 @@ strong {
 
 /* EXERCÍCIO 2: layout da página */
 #recipiente {
-  /* layout da página aqui */
-  /* ... */
-  /* ... */
-  /* ... */
-  /* ... */
+  margin: 0 auto;
+  width: 800px;
+
+  display: grid;
+  grid-template-rows:  100px auto 100px;
+  grid-template-columns: 150px 650px;
+}
+
+html, body, #recipiente {
+  min-height: 100vh;
 }
 
 #cabecalho-pagina {
-
+  grid-column: 2/2;
 }
 
 #lateral {
-
+  grid-column: 1/2;
+  grid-row: 1/4;
 }
 
 #cardapio {
-
+  grid-column: 2/2;
+  grid-row: 2/3;
 }
 
 #rodape-pagina {
-
+  grid-column: 2/2;
+  grid-row: 3/3;
 }
 
 
