@@ -129,9 +129,14 @@ article {
 
 /* EXERCÍCIO 7: o ticket */
 #ticket {
+  position: absolute;
+  left: -89px;
+  top: 50%;
+  transition: left 100ms ease-out;
 }
 
 #ticket:hover {
+  left: 0;
 }
 
 
